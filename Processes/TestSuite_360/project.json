@@ -1,0 +1,224 @@
+{
+  "name": "TestSuite_360",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Faker.Data": "[2.0.1]",
+    "UiPath.Excel.Activities": "[2.16.2]",
+    "UiPath.MobileAutomation.Activities": "[22.10.2]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.5]"
+  },
+  "webServices": [
+    {
+      "namespace": "uibankapi",
+      "serviceDocument": "Services\\uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "kP0R/sfYeF6g2eJriV+2iJTiGWXT5AKaAtk88ernMGw="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.12.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "882971ff-916a-4537-ae15-0a91690ac27a",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "29bffaca-40ba-46f2-ba31-49bffe3f3a99",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\High Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "76db9272-7d9e-4562-b1f7-15d014c279fe",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Long Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "62c7fefa-6c2a-4d24-b63b-bdddb15e3cf8",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Mid Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bfe5c140-784d-4746-b6a5-ff4531c2bf4c",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Old Age Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "03fda92a-5747-4e91-8d7b-2f63dc11abf3",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Short Term Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fa4d3ef8-0b02-419d-8971-06af22275f6f",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Standard Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "59e9b6ea-6b4a-458f-b7dd-7f0713ef01fb",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Young Age Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6d681712-5817-4515-85e5-f1eb878aa73c",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Web\\Test Cases - Web\\Data Driven Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "17aedad4-84d2-407b-9cab-39ad25790140",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank API\\Test Cases - API\\CreateStandardLoan_API.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4fb12495-38c3-4344-be48-819aa5e92210",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Mobile\\Test Cases - Mobile\\UserLogin.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "27dd2062-66db-461c-ad4d-849290a824b8",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Mainframe\\Test Cases - Mainframe\\Modify Birthdate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1747933d-5c3f-4dc4-bdbe-68fe9948ca50",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Desktop\\Test Cases - Desktop\\Create Admin.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "25073d47-deba-42ec-897e-beb3f5431efa",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Desktop\\Test Cases - Desktop\\Create Customer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "57d8466d-9cd3-45f3-ac7a-97bef2fde7ec",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Desktop\\Test Cases - Desktop\\Login User.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c7c6b0cc-56bd-4050-82cf-1fd3e74624ff",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank Desktop\\Test Cases - Desktop\\Verify Overdraft Rate.xaml"
+      },
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\UiBankWebExecutionTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8edd2a85-c039-437f-90f7-d75ed4192fb1",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Create Account.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "60dc44ba-126f-462a-ae60-6cf2fa46e87c",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Create Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0915577e-958b-4bd9-9858-9ed123be00b4",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Create User.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e2380936-0155-482c-81d8-68d9749bc79d",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Modify User Profile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5c97c490-6267-40ab-9e8f-8070b68d3fde",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Perform Transaction.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fb755c92-94a9-4350-bd7d-408c041ec34c",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Register Administrator.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fbde13f5-3dd0-479f-8782-643fce6c171d",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Reset Password.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7bcb6b54-41f5-4204-a8b7-b2cc070ddebc",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\Transfer Funds.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1735d89c-0e15-460f-b548-dc1f53fb0534",
+        "executionTemplatePath": ".templates\\UiBankWebExecutionTemplate.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "UiBank Web\\Test Cases - Web\\OneWithExecutionTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "77e693ec-e28b-46d2-b458-88bf9ef0ebca",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank SAP\\SAP Fiori\\Purchase Item.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

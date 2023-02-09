@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/gsteam/TS_UiBankDev/testmanager_/",
+  "defaultProject": {
+    "id": "f203cb4f-db00-0000-4430-0b42f0484a3a",
+    "name": "Madhu",
+    "key": "EXP"
+  }
+}

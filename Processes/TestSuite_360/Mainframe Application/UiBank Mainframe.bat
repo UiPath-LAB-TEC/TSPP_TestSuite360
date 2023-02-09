@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass .\PowerShellExample.ps1
