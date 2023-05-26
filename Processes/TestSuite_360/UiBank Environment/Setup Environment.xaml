@@ -14,7 +14,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>783.2,1804</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1003.2,1794.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Setup_Environment_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -46,36 +46,39 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.MobileAutomation</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>System.ValueTuple</AssemblyReference>
-      <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>UiPath.MobileAutomation</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationX</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>UiPath.CV</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Setup Environment" sap:VirtualizedContainerService.HintSize="549.6,1739.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Setup Environment" sap:VirtualizedContainerService.HintSize="568.8,1729.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="FolderName">
         <Variable.Default>
-          <Literal x:TypeArguments="x:String">TS</Literal>
+          <Literal x:TypeArguments="x:String">InternalDemos/TSPP_TestSuite360</Literal>
         </Variable.Default>
       </Variable>
     </Sequence.Variables>
@@ -84,34 +87,37 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Set App Paths" sap:VirtualizedContainerService.HintSize="506.4,1003.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Set App Paths" sap:VirtualizedContainerService.HintSize="506.4,972.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:GetRobotAsset AssetName="UiBank Web App Address" DisplayName="Set UiBank Web" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,148.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1" TimeoutMS="{x:Null}">
+      <ui:GetRobotAsset AssetName="UiBank Web App Address" CacheStrategy="None" DisplayName="Set UiBank Web" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,142.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+        <ui:GetRobotAsset.TimeoutMS>
+          <InArgument x:TypeArguments="x:Int32" />
+        </ui:GetRobotAsset.TimeoutMS>
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankWeb]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <ui:GetRobotAsset AssetName="UiBank API Endpoint" DisplayName="Set UiBank API" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,148.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2" TimeoutMS="{x:Null}">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank API Endpoint" CacheStrategy="None" DisplayName="Set UiBank API" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,142.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankAPI]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <ui:GetRobotAsset AssetName="UiBank Admin Application" DisplayName="Set UiBank Admin" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,148.8" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3" TimeoutMS="{x:Null}">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Admin Application" CacheStrategy="None" DisplayName="Set UiBank Admin" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,142.4" sap2010:WorkflowViewState.IdRef="GetRobotAsset_3">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankAdmin]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <ui:GetRobotAsset AssetName="UiBank Mainframe Folder" DisplayName="Set UiBank Main Folder" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_4" TimeoutMS="{x:Null}">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe Folder" CacheStrategy="None" DisplayName="Set UiBank Main Folder" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_4">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankMainFolder]</OutArgument>
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
-      <ui:GetRobotAsset AssetName="UiBank Mainframe App" DisplayName="Set UiBank Main App" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_5" TimeoutMS="{x:Null}">
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="UiBank Mainframe App" CacheStrategy="None" DisplayName="Set UiBank Main App" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_5">
         <ui:GetRobotAsset.Value>
           <OutArgument x:TypeArguments="x:String">[UiBankMainApp]</OutArgument>
         </ui:GetRobotAsset.Value>
@@ -124,9 +130,9 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:GetRobotCredential AssetName="UiBank Admin Credentials" DisplayName="Get Admin Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[AdminPassword]" TimeoutMS="{x:Null}" Username="[AdminUsername]" />
-      <ui:GetRobotCredential AssetName="UiBank Super Admin Credentials" DisplayName="Get Super Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[SuperAdminPassword]" TimeoutMS="{x:Null}" Username="{x:Null}" />
-      <ui:GetRobotCredential AssetName="UiBank SAP S4/HANA Credentials" DisplayName="Get S4/HANA Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[SapPassword]" TimeoutMS="{x:Null}" Username="[SapUsername]" />
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="UiBank Admin Credentials" CacheStrategy="None" DisplayName="Get Admin Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[AdminPassword]" Username="[AdminUsername]" />
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="UiBank Super Admin Credentials" CacheStrategy="None" DisplayName="Get Super Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[SuperAdminPassword]" />
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="UiBank SAP S4/HANA Credentials" CacheStrategy="None" DisplayName="Get S4/HANA Credentials" FolderPath="[FolderName]" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[SapPassword]" Username="[SapUsername]" />
     </Sequence>
     <Sequence DisplayName="Output App Paths" sap:VirtualizedContainerService.HintSize="486,156" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
@@ -135,7 +141,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <WriteLine DisplayName="Write Environment Setup" sap:VirtualizedContainerService.HintSize="230,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Environment.NewLine +&#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment Start&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;(1) UiBank Web: &quot; + UiBankWeb +&#xA;Environment.NewLine + &#xA;&quot;(2) UiBank API: &quot; + UiBankAPI +&#xA;Environment.NewLine + &#xA;&quot;(3) UiBank Admin: &quot; + UiBankAdmin +&#xA;Environment.NewLine + &#xA;&quot;(4) UiBank Mainframe: &quot; + UiBankMainFolder +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment End&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine]" TextWriter="{x:Null}" />
+      <WriteLine DisplayName="Write Environment Setup" sap:VirtualizedContainerService.HintSize="230,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Environment.NewLine +&#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment Start&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;(1) UiBank Web: &quot; + UiBankWeb +&#xA;Environment.NewLine + &#xA;&quot;(2) UiBank API: &quot; + UiBankAPI +&#xA;Environment.NewLine + &#xA;&quot;(3) UiBank Admin: &quot; + UiBankAdmin +&#xA;Environment.NewLine + &#xA;&quot;(4) UiBank Mainframe: &quot; + UiBankMainFolder +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine + &#xA;&quot;Environment End&quot; +&#xA;Environment.NewLine + &#xA;&quot;*******************&quot; +&#xA;Environment.NewLine]" />
     </Sequence>
   </Sequence>
 </Activity>
