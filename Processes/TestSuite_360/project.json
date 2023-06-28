@@ -57,56 +57,56 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "29bffaca-40ba-46f2-ba31-49bffe3f3a99",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\High Volume Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "76db9272-7d9e-4562-b1f7-15d014c279fe",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Long Term Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "62c7fefa-6c2a-4d24-b63b-bdddb15e3cf8",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Mid Term Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "bfe5c140-784d-4746-b6a5-ff4531c2bf4c",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Old Age Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "03fda92a-5747-4e91-8d7b-2f63dc11abf3",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Short Term Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "fa4d3ef8-0b02-419d-8971-06af22275f6f",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Standard Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "59e9b6ea-6b4a-458f-b7dd-7f0713ef01fb",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Young Age Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "6d681712-5817-4515-85e5-f1eb878aa73c",
         "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\Data Driven Loan.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "17aedad4-84d2-407b-9cab-39ad25790140",
         "testCaseType": "TestCase",
         "fileName": "UiBank API\\Test Cases - API\\CreateStandardLoan_API.xaml"
@@ -118,31 +118,31 @@
         "fileName": "UiBank Mobile\\Test Cases - Mobile\\UserLogin.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "27dd2062-66db-461c-ad4d-849290a824b8",
         "testCaseType": "TestCase",
         "fileName": "UiBank Mainframe\\Test Cases - Mainframe\\Modify Birthdate.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "1747933d-5c3f-4dc4-bdbe-68fe9948ca50",
         "testCaseType": "TestCase",
         "fileName": "UiBank Desktop\\Test Cases - Desktop\\Create Admin.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "25073d47-deba-42ec-897e-beb3f5431efa",
         "testCaseType": "TestCase",
         "fileName": "UiBank Desktop\\Test Cases - Desktop\\Create Customer.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "57d8466d-9cd3-45f3-ac7a-97bef2fde7ec",
         "testCaseType": "TestCase",
         "fileName": "UiBank Desktop\\Test Cases - Desktop\\Login User.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "c7c6b0cc-56bd-4050-82cf-1fd3e74624ff",
         "testCaseType": "TestCase",
         "fileName": "UiBank Desktop\\Test Cases - Desktop\\Verify Overdraft Rate.xaml"
@@ -200,7 +200,7 @@
         "fileName": "UiBank CICD\\Transfer Funds.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "1735d89c-0e15-460f-b548-dc1f53fb0534",
         "executionTemplatePath": ".templates\\UiBankWebExecutionTemplate.xaml",
         "testCaseType": "TestCase",
