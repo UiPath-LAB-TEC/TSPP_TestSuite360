@@ -147,12 +147,6 @@
         "fileName": "UiBank Mobile\\Test Cases - Mobile\\TC_UiBankMobile_UserLogin.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "e69f4686-d0b7-4419-bce2-1a8012c634d5",
-        "testCaseType": "TestCase",
-        "fileName": "UiBank SAP\\SAP Fiori\\TC_SAPFiori_PurchaseItem.xaml"
-      },
-      {
         "editingStatus": "Publishable",
         "testCaseId": "83c205c4-884f-4f6a-afed-9f111155ef7e",
         "testCaseType": "TestCase",
