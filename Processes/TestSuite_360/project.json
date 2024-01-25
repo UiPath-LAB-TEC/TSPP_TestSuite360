@@ -82,54 +82,42 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "17aedad4-84d2-407b-9cab-39ad25790140",
-        "testCaseType": "TestCase",
-        "fileName": "UiBank API\\Test Cases - API\\TC_UiBankAPI_CreateStandardLoan.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
         "testCaseId": "8edd2a85-c039-437f-90f7-d75ed4192fb1",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_CreateAccount.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "60dc44ba-126f-462a-ae60-6cf2fa46e87c",
-        "testCaseType": "TestCase",
-        "fileName": "UiBank CICD\\TC_UiBankCICD_CreateLoan.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "0915577e-958b-4bd9-9858-9ed123be00b4",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_CreateUser.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "e2380936-0155-482c-81d8-68d9749bc79d",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_ModifyUserProfile.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "5c97c490-6267-40ab-9e8f-8070b68d3fde",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_PerformTransaction.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "fb755c92-94a9-4350-bd7d-408c041ec34c",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_RegisterAdministrator.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "fbde13f5-3dd0-479f-8782-643fce6c171d",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_ResetPassword.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "7bcb6b54-41f5-4204-a8b7-b2cc070ddebc",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_TransferFunds.xaml"
@@ -185,6 +173,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "c8551332-1c25-4caa-80c4-fc4ae91d282c",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\TC_UiBankWeb_Feature_DataDriven_Excel.xaml"
       },
@@ -199,6 +188,18 @@
         "testCaseId": "f260734d-7440-4ee4-af46-22df8ead71c3",
         "testCaseType": "TestCase",
         "fileName": "UiBank Web\\Test Cases - Web\\TC_UiBankWeb_ShortTermLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0e29f171-de4f-4770-b422-668f02aa1adc",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank API\\Test Cases - API\\TC_UiBankAPI_CreateStandardLoan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "47eb5148-aee6-45f4-a164-1cb5bc0fc641",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank CICD\\TC_UiBankCICD_CreateLoan.xaml"
       }
     ],
     "modernBehavior": false,
