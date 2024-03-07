@@ -200,6 +200,10 @@
         "testCaseId": "47eb5148-aee6-45f4-a164-1cb5bc0fc641",
         "testCaseType": "TestCase",
         "fileName": "UiBank CICD\\TC_UiBankCICD_CreateLoan.xaml"
+      },
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework Template.xaml"
       }
     ],
     "modernBehavior": false,
