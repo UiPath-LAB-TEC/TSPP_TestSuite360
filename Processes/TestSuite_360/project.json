@@ -204,6 +204,12 @@
       {
         "templateType": "ExecutionTemplate",
         "fileName": ".templates\\TestFramework Template.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "27326c90-07a9-432c-ab42-86d19988cb4b",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
       }
     ],
     "modernBehavior": false,
